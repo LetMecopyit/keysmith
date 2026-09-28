@@ -14,7 +14,7 @@ export default function FAQ() {
     },
     {
       q: 'How fast will a locksmith arrive at my location?',
-      a: 'Mobile locksmith vans are stationed on active duty across USA metro areas. Average arrival time is 15 to 20 minutes from the moment your call is dispatched.'
+      a: 'We operate 24 hours a day, 7 days a week, 365 days a year with mobile locksmith vans stationed throughout your area. We guarantee the fastest possible dispatch and arrival by immediately routing your call to the nearest active mobile unit.'
     },
     {
       q: 'How much does an emergency locksmith call cost?',

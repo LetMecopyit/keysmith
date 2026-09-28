@@ -6,10 +6,10 @@ export default function LiveFeedAndReviews() {
   const { config } = useAffiliate();
 
   const recentCalls = [
-    { time: '2 mins ago', location: 'Dallas, TX', job: '2023 Honda Accord Lockout', status: 'Unlocked (0% Damage)', arrival: '14 min ETA' },
-    { time: '5 mins ago', location: 'Los Angeles, CA', job: 'Front Door Deadbolt Lockout', status: 'Picked Non-Destructively', arrival: '11 min ETA' },
-    { time: '9 mins ago', location: 'Houston, TX', job: 'Lost Smart Fob Replacement', status: 'Key Programmed Onsite', arrival: '18 min ETA' },
-    { time: '12 mins ago', location: 'Phoenix, AZ', job: 'Commercial Glass Door Unlock', status: 'Unlocked Cleanly', arrival: '15 min ETA' }
+    { time: '2 mins ago', location: 'Dallas, TX', job: '2023 Honda Accord Lockout', status: 'Unlocked (0% Damage)', arrival: 'Fastest 24/7 Response' },
+    { time: '5 mins ago', location: 'Los Angeles, CA', job: 'Front Door Deadbolt Lockout', status: 'Picked Non-Destructively', arrival: 'Fastest Local Arrival' },
+    { time: '9 mins ago', location: 'Houston, TX', job: 'Lost Smart Fob Replacement', status: 'Key Programmed Onsite', arrival: 'Immediate 24/7 Dispatch' },
+    { time: '12 mins ago', location: 'Phoenix, AZ', job: 'Commercial Glass Door Unlock', status: 'Unlocked Cleanly', arrival: 'Fastest Mobile Tech' }
   ];
 
   const reviews = [
@@ -19,7 +19,7 @@ export default function LiveFeedAndReviews() {
       rating: 5,
       date: 'Yesterday',
       service: 'Car Lockout (BMW 3-Series)',
-      text: 'I accidentally locked my keys inside my BMW trunk while getting groceries. Another locksmith company said they would have to drill my trunk lock for $300! I called this service and technician Alex arrived in 15 minutes, used a special air wedge and non-scratch pick tool, and had my trunk open in 4 minutes with ZERO damage to my car paint!'
+      text: 'I accidentally locked my keys inside my BMW trunk while getting groceries. Another locksmith company said they would have to drill my trunk lock for $300! I called this service and technician Alex arrived with the fastest response time, used a special air wedge and non-scratch pick tool, and had my trunk open in 4 minutes with ZERO damage to my car paint!'
     },
     {
       name: 'Sarah Jenkins',
@@ -27,7 +27,7 @@ export default function LiveFeedAndReviews() {
       rating: 5,
       date: '3 days ago',
       service: 'House Front Door Lockout',
-      text: 'Locked myself out of my apartment late Sunday night. Called the hotline, operator was super polite, gave me an upfront flat rate, and the locksmith arrived in 18 mins. Opened my high-security Schlage deadbolt without damaging the lock cylinder so my key still works perfectly!'
+      text: 'Locked myself out of my apartment late Sunday night. Called the hotline, operator was super polite, gave me an upfront flat rate, and the locksmith arrived faster than any other service in the middle of the night. Opened my high-security Schlage deadbolt without damaging the lock cylinder so my key still works perfectly!'
     },
     {
       name: 'David R.',

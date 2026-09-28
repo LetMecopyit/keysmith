@@ -15,7 +15,7 @@ export default function Header() {
             <span className="relative inline-flex rounded-full h-2.5 w-2.5 bg-slate-950"></span>
           </span>
           <span>⚡ 24/7 DISPATCH ACTIVE • USA Technicians Ready</span>
-          <span className="hidden md:inline text-slate-900">• Avg Arrival: {config.etaMins} Mins</span>
+          <span className="hidden md:inline text-slate-900 font-extrabold">• 24/7 Available • Arrive Fastest</span>
           <span className="hidden lg:inline text-slate-950 font-extrabold">• 100% Non-Destructive Door Opening</span>
         </div>
 

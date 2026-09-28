@@ -61,7 +61,7 @@ export default function Hero() {
             <div className="grid grid-cols-2 sm:grid-cols-3 gap-3 pt-1 max-w-xl mx-auto lg:mx-0">
               <div className="flex items-center gap-2 bg-slate-900/80 border border-slate-800 p-2.5 rounded-xl">
                 <CheckCircle2 className="w-4 h-4 text-amber-400 shrink-0" />
-                <span className="text-xs font-bold text-slate-200">15-20 Min Avg Arrival</span>
+                <span className="text-xs font-bold text-slate-200">24/7 Fastest Arrival</span>
               </div>
               <div className="flex items-center gap-2 bg-slate-900/80 border border-slate-800 p-2.5 rounded-xl">
                 <CheckCircle2 className="w-4 h-4 text-emerald-400 shrink-0" />

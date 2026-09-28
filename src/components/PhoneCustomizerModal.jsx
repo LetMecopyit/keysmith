@@ -81,7 +81,7 @@ export default function PhoneCustomizerModal() {
                   required
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="e.g. 1-800-555-5625"
+                  placeholder="e.g. (888)-217-1749"
                   className="w-full bg-slate-950 border border-slate-700 rounded-xl pl-9 pr-3 py-2 text-white font-bold focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500"
                 />
               </div>
@@ -124,7 +124,7 @@ export default function PhoneCustomizerModal() {
                 type="text"
                 value={formData.etaMins}
                 onChange={(e) => setFormData({ ...formData, etaMins: e.target.value })}
-                placeholder="e.g. 15-20"
+                placeholder="e.g. Fastest Arrival"
                 className="w-full bg-slate-950 border border-slate-700 rounded-xl px-3 py-2 text-white font-bold text-xs focus:border-amber-500 focus:outline-none"
               />
             </div>

@@ -14,7 +14,7 @@ export default function CostEstimator() {
       title: 'Car Door & Trunk Lockout',
       basePrice: '$45 - $85',
       callout: config.calloutFee,
-      eta: '15 - 20 Mins',
+      eta: 'Fastest 24/7 Arrival',
       method: 'Non-Destructive Lishi & Air-Wedge',
       details: 'Covers domestic & import vehicles (Ford, Chevy, Toyota, Honda, BMW, Benz, Hyundai, Kia, etc.) without scratching paint.'
     },
@@ -22,7 +22,7 @@ export default function CostEstimator() {
       title: 'Lost Car Key / Fob Replacement',
       basePrice: '$95 - $185',
       callout: config.calloutFee,
-      eta: '20 - 30 Mins',
+      eta: 'Fastest 24/7 Arrival',
       method: 'On-site Laser Key Cut & OBD2 Coding',
       details: 'We cut fresh keys and program transponder chips / push-to-start smart fobs directly at your stranded location.'
     },
@@ -30,7 +30,7 @@ export default function CostEstimator() {
       title: 'Residential House / Apt Lockout',
       basePrice: '$55 - $95',
       callout: config.calloutFee,
-      eta: '15 - 25 Mins',
+      eta: 'Fastest 24/7 Arrival',
       method: 'Single Pin Pick & Bypass Tooling',
       details: 'Unlocks front doors, deadbolts, sliding glass doors, and smart electronic keypads cleanly.'
     },
@@ -38,7 +38,7 @@ export default function CostEstimator() {
       title: 'Rekey Existing Locks (New Keys)',
       basePrice: '$35 - $65 / cylinder',
       callout: config.calloutFee,
-      eta: 'Scheduled or Today',
+      eta: 'Fastest 24/7 Arrival or Scheduled',
       method: 'Pin Tumbler Recoding',
       details: 'Perfect for new home buyers or tenant changes. Keep existing handles while rendering old lost keys useless.'
     },
@@ -46,7 +46,7 @@ export default function CostEstimator() {
       title: 'Commercial Office & Storefront',
       basePrice: '$75 - $145',
       callout: config.calloutFee,
-      eta: '15 - 20 Mins',
+      eta: 'Fastest 24/7 Arrival',
       method: 'High-Security Mortise & Panic Bar Unlock',
       details: 'Commercial grade bypass for glass storefront doors, panic exit bars, electronic access locks, and file cabinets.'
     },
@@ -54,7 +54,7 @@ export default function CostEstimator() {
       title: 'Broken Key Extraction & Cut',
       basePrice: '$50 - $90',
       callout: config.calloutFee,
-      eta: '15 - 20 Mins',
+      eta: 'Fastest 24/7 Arrival',
       method: 'Precision Key Puller + Onsite Duplication',
       details: 'Safely removes snapped keys stuck inside door locks or vehicle ignitions without replacing the cylinder.'
     }
@@ -155,7 +155,7 @@ export default function CostEstimator() {
                       urgency === 'emergency' ? 'bg-amber-500 text-slate-950' : 'text-slate-400 hover:text-white'
                     }`}
                   >
-                    ⚡ Immediate (15-20m)
+                    ⚡ 24/7 Immediate (Arrive Fastest)
                   </button>
                   <button
                     type="button"

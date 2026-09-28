@@ -9,19 +9,19 @@ export default function CityCoverageRadar() {
   const [searchQuery, setSearchQuery] = useState('');
 
   const popularCities = [
-    { name: 'Dallas / Fort Worth, TX', techCount: 14, eta: '12-18 min' },
-    { name: 'Houston, TX', techCount: 18, eta: '15-20 min' },
-    { name: 'Austin, TX', techCount: 9, eta: '14-22 min' },
-    { name: 'Los Angeles, CA', techCount: 22, eta: '15-25 min' },
-    { name: 'San Diego, CA', techCount: 11, eta: '12-18 min' },
-    { name: 'Phoenix, AZ', techCount: 15, eta: '15-20 min' },
-    { name: 'Chicago, IL', techCount: 19, eta: '12-20 min' },
-    { name: 'Miami, FL', techCount: 12, eta: '10-18 min' },
-    { name: 'Atlanta, GA', techCount: 16, eta: '15-22 min' },
-    { name: 'New York City, NY', techCount: 25, eta: '15-25 min' },
-    { name: 'Philadelphia, PA', techCount: 10, eta: '14-20 min' },
-    { name: 'Denver, CO', techCount: 8, eta: '15-20 min' },
-    { name: 'Seattle, WA', techCount: 11, eta: '12-18 min' }
+    { name: 'Dallas / Fort Worth, TX', techCount: 14, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Houston, TX', techCount: 18, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Austin, TX', techCount: 9, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Los Angeles, CA', techCount: 22, eta: 'Fastest 24/7 Arrival' },
+    { name: 'San Diego, CA', techCount: 11, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Phoenix, AZ', techCount: 15, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Chicago, IL', techCount: 19, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Miami, FL', techCount: 12, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Atlanta, GA', techCount: 16, eta: 'Fastest 24/7 Arrival' },
+    { name: 'New York City, NY', techCount: 25, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Philadelphia, PA', techCount: 10, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Denver, CO', techCount: 8, eta: 'Fastest 24/7 Arrival' },
+    { name: 'Seattle, WA', techCount: 11, eta: 'Fastest 24/7 Arrival' }
   ];
 
   const filteredCities = searchQuery.trim()
@@ -128,9 +128,9 @@ export default function CityCoverageRadar() {
                   </div>
                 </div>
                 <div className="bg-slate-900 p-3 rounded-xl border border-slate-800">
-                  <div className="text-[10px] text-slate-400 uppercase font-bold">Estimated Arrival</div>
+                  <div className="text-[10px] text-slate-400 uppercase font-bold">Technician Arrival</div>
                   <div className="text-lg font-black text-amber-400">
-                    {popularCities.find(c => c.name === activeCity)?.eta || '15-20 min'}
+                    {popularCities.find(c => c.name === activeCity)?.eta || 'Fastest 24/7 Arrival'}
                   </div>
                 </div>
               </div>
