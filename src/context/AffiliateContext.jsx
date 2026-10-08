@@ -3,8 +3,8 @@ import React, { createContext, useContext, useState, useEffect } from 'react';
 const AffiliateContext = createContext();
 
 export const DEFAULT_CONFIG = {
-  phone: '(888)-217-1749',
-  phoneRaw: '8882171749',
+  phone: '(888)-431-3893',
+  phoneRaw: '8884313893',
   brandName: 'Lockmaster USA 24/7',
   targetCity: 'USA Nationwide / Local',
   etaMins: 'Fastest Arrival',
@@ -15,7 +15,7 @@ export const DEFAULT_CONFIG = {
 
 export function AffiliateProvider({ children }) {
   const [config, setConfig] = useState(() => {
-    // Read from URL query params if present (e.g. ?phone=8882171749&brand=ProLock)
+    // Read from URL query params if present (e.g. ?phone=8884313893&brand=ProLock)
     const params = new URLSearchParams(window.location.search);
     const urlPhone = params.get('phone') || params.get('tel');
     const urlBrand = params.get('brand') || params.get('name');
@@ -25,7 +25,7 @@ export function AffiliateProvider({ children }) {
     let initial = saved ? JSON.parse(saved) : { ...DEFAULT_CONFIG };
 
     // Reset old placeholder values if stored in localStorage
-    if (initial.phone === '1-800-555-5625' || !initial.phone) {
+    if (initial.phone === '1-800-555-5625' || initial.phone === '(888)-217-1749' || initial.phone === '8882171749' || !initial.phone) {
       initial.phone = DEFAULT_CONFIG.phone;
       initial.phoneRaw = DEFAULT_CONFIG.phoneRaw;
     }
