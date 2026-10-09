@@ -61,7 +61,10 @@ export default function Footer() {
 
         </div>
 
-        <div className="pt-6 border-t border-slate-900 text-[11px] text-slate-400 text-center space-y-2">
+        <div className="pt-6 border-t border-slate-900 text-[11px] text-slate-400 text-center space-y-3">
+          <p className="bg-slate-900/50 p-4 rounded-xl border border-slate-800/80 text-slate-400 text-[11px] leading-relaxed text-left sm:text-center max-w-4xl mx-auto">
+            <span className="font-semibold text-slate-300">Disclaimer:</span> {config.brandName} is a free service to assist homeowners in connecting with local service providers. All contractors/providers are independent and {config.brandName} does not warrant or guarantee any work performed. It is the responsibility of the homeowner to verify that the hired contractor furnishes the necessary license and insurance required for the work being performed. All persons depicted in a photo or video are actors or models and not contractors listed on {config.brandName}.
+          </p>
           <p>
             © {new Date().getFullYear()} {config.brandName}. All rights reserved. 
             All locksmith services are performed by independent, licensed, bonded, and insured local third-party locksmith technicians across the USA.

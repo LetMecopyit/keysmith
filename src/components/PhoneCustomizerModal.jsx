@@ -81,7 +81,7 @@ export default function PhoneCustomizerModal() {
                   required
                   value={formData.phone}
                   onChange={(e) => setFormData({ ...formData, phone: e.target.value })}
-                  placeholder="e.g. (888)-431-3893"
+                  placeholder="e.g. (866)-228-7172"
                   className="w-full bg-slate-950 border border-slate-700 rounded-xl pl-9 pr-3 py-2 text-white font-bold focus:border-amber-500 focus:outline-none focus:ring-1 focus:ring-amber-500"
                 />
               </div>
