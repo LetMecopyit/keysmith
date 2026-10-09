@@ -69,9 +69,6 @@ export default function Footer() {
             © {new Date().getFullYear()} {config.brandName}. All rights reserved. 
             All locksmith services are performed by independent, licensed, bonded, and insured local third-party locksmith technicians across the USA.
           </p>
-          <p className="text-slate-400">
-            Target Region: <strong>{config.targetCity}</strong> • Campaign Tag: <code>{config.affiliateId}</code>
-          </p>
         </div>
 
       </div>
